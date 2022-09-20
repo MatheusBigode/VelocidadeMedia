@@ -1,0 +1,154 @@
+/**----------------------------------------------------------------MAIN------------------------------------------------------**/ 
+body{
+    font-family: 'Cabin', sans-serif;
+
+}
+
+h1 {
+    text-align: left;
+    background-color: rgb(255, 206, 115, 0.726);
+    padding: 10px;
+    border-radius: 10px;
+    color: orangered;
+}
+
+#home{
+    display: inline-block;
+    margin-inline: 10px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    color: orangered;
+    background-color: rgb(255, 206, 115, 0.726);
+}
+
+#hometxt {
+    text-decoration: none;
+}
+
+#sobre{
+    display: inline-block;
+    margin-inline: 10px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    color: orangered;
+    background-color: rgb(255, 206, 115, 0.726);
+}
+
+#sobretxt {
+    text-decoration: none;
+}
+
+#divMain{
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#titleCalc{
+    color: orangered;
+    background-color: rgb(255, 206, 115, 0.726);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#dist {
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    display: block;
+    text-align: left;
+}
+
+#tempo {
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    display: block;
+    text-align: left;
+}
+
+#btnLimp{
+    width: 10vw;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: orangered;
+    background-color: rgba(223, 146, 5, 0.5);
+    border: 1px solid orangered;
+    border-radius: 8px;
+    padding: 7px;
+}
+
+#btnLimp:hover{
+    background-color: rgba(255, 0, 0, 0.719);
+    color: white;
+    border: 1px solid rgba(255, 0, 0, 0.719);
+}
+
+#btnCalc{
+    width: 10vw;
+    text-align: center;
+    margin-top: 10px;
+    color: orangered;
+    background-color: rgba(223, 146, 5, 0.5);
+    border: 1px solid orangered;
+    border-radius: 8px;
+    padding: 7px;
+}
+
+#btnCalc:hover{
+   background-color: rgb(2, 172, 2);
+   color: white;
+   border: 1px solid rgb(2, 172, 2);
+}
+
+
+#resp {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid orange;
+    background-color: rgb(255, 206, 115, 0.726);
+    border-radius: 10px;
+    display: block;
+    text-align: left;
+}
+
+/** ---------------------------------------------------------- RESULTADOS ------------------------------------------------------------ **/
+
+
+#divRes{
+    margin-top: 1rem;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+}
+
+#titleRes{
+    color: orangered;
+    background-color: rgb(255, 206, 115, 0.726);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#resultados{
+    padding-inline: 1rem;
+    border: 2px orangered;
+    border-radius: 5px;
+}
+
+#footer{
+    background-color: rgb(255, 206, 115, 0.726);
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
