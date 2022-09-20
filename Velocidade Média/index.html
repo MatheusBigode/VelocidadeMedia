@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Velocidade Média</title>
+</head>
+<body>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');    </style>
+    
+    <div id="barra">
+         <header id="head">
+        <h1>Velocidade Média</h1>
+        </header>
+        <nav>
+        <ul id="navbar">
+            <li id="home"><a href="index.html" id="hometxt">Home</a></li>
+            <li id="sobre"><a href="sobre.html" id="sobretxt">Sobre</a></li>
+        </ul>
+    </nav>
+    </div>
+    
+
+    <div class="container" id="divMain">
+        <h2 id="titleCalc">Cálculo</h2>
+        <div class="form">
+            <input type="number" placeholder="Insira a distância percorrida (em Km)" id="dist">
+            <br>
+            <input type="number" placeholder="Insira o intervalo de tempo (em horas)" id="tempo">
+            <div>
+                <input type="button" value="Limpar" onclick="Limpar()" id="btnLimp">
+            <input type="button" value="Calcular" onclick="Calcular()" id="btnCalc">
+            </div>
+            
+            <br>
+            <input readonly type="number" placeholder="Resultado (em Km/h)"  id="resp">
+        </div>
+       
+    </div>
+    <div id="divRes">
+        <h2 id="titleRes">Resultados</h2>
+        <div id="historico">
+
+        </div>
+        <input type="button" value="Apagar histórico" onclick="LimparHistórico()" id="limpHist">
+    </div>
+
+    <footer id="footer">
+        <nav>
+            <li>SENAI SC</li>
+            <li>Curso de Desenvolvimento de Sistemas</li>
+            <li>Lógica de Programação</li>
+            <li>Matheus Santana Marianni</li>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
